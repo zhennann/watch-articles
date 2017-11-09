@@ -1,0 +1,41 @@
+{
+  "name": "watch-articles",
+  "version": "1.0.1",
+  "description": "watch articles's statistics, such as stars, visits, replies, etc.",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --timeout 120s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhennann/watch-articles.git"
+  },
+  "keywords": [
+    "egg",
+    "egg-born",
+    "watch-articles"
+  ],
+  "author": "zhennann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhennann/watch-articles/issues"
+  },
+  "homepage": "https://github.com/zhennann/watch-articles#readme",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "eslint": "^4.5.0",
+    "eslint-config-egg": "^5.1.0",
+    "eslint-plugin-vuefix": "^0.2.0",
+    "mocha": "^4.0.1"
+  },
+  "dependencies": {
+    "axios": "^0.17.0"
+  }
+}
