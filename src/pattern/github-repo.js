@@ -56,7 +56,7 @@ module.exports = ctx => {
         matchPass: [
           {
             index: 1,
-            data: 'avator',
+            data: 'avatar',
           },
         ],
       },
