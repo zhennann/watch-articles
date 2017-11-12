@@ -1,6 +1,6 @@
 # Watch Articles
 
-This is a powerful tool to watch articles's statistics automatically, such as visits, stars, replies, etc. 
+这是一个强大的工具，可以自动抓取文章的统计数字，诸如visits、 stars、 replies，等等。 
 
 [![NPM version][npm-image]][npm-url]
 [![NPM quality][quality-image]][quality-url]
@@ -25,17 +25,17 @@ This is a powerful tool to watch articles's statistics automatically, such as vi
 [gitter-image]: https://badges.gitter.im/zhennann/egg-born.svg?style=flat-square
 [gitter-url]: https://gitter.im/zhennann/egg-born?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
 
-## Try The Demo
+## 体验案例
 
-### Website
+### 官网
 
-- Website: [http://wa.egg-born.org](http://wa.egg-born.org)
-- QRCode: 
+- 网址：[http://wa.egg-born.org](http://wa.egg-born.org)
+- 二维码：
 <p>
     <img width="200" src="https://github.com/zhennann/egg-born-showcase-watch-articles/blob/master/docs/images/qrcode.png"></img>
 </p>
 
-### Screenshots
+### 截图
 <p>
     <img width="200" src="https://github.com/zhennann/egg-born-showcase-watch-articles/blob/master/docs/images/1.jpg"></img>
 </p>
@@ -43,29 +43,29 @@ This is a powerful tool to watch articles's statistics automatically, such as vi
     <img width="200" src="https://github.com/zhennann/egg-born-showcase-watch-articles/blob/master/docs/images/2.jpg"></img>
 </p>
 
-### How To Use
+### 如何使用
 
-Append your article's url to the system, which will fetch the article's statistics automatically with the corresponding pattern. If has not the corresponding pattern for the article, you can create one.
+将文章添加进系统，系统会使用相应的模式代码自动抓取文章的统计数字。如果没有相应的模式代码，您也可以创建一个。
 
-### Pattern Library
+### 模式库
 
-Welcome to fork the repo [watch-articles](https://github.com/zhennann/watch-articles), and create your own patterns, then submit [PR](https://github.com/zhennann/watch-articles/pulls), and then post them here!
+欢迎fork仓库[watch-articles](https://github.com/zhennann/watch-articles)，创建您自己的模块代码，提交[PR](https://github.com/zhennann/watch-articles/pulls)，然后发布到这里！
 
-| Pattern  | Author           |
+| 模式代码  | 作者           |
 | :------- | :---------------- |
 | github-repo  | <img width="20" height="20" src="https://avatars2.githubusercontent.com/u/24246985?s=40&v=4"></img> [zhennann](https://github.com/zhennann) |
 | cnode-topic | <img width="20" height="20" src="https://avatars2.githubusercontent.com/u/24246985?s=40&v=4"></img> [zhennann](https://github.com/zhennann) |
 | juejin-im-post | <img width="20" height="20" src="https://avatars2.githubusercontent.com/u/24246985?s=40&v=4"></img> [zhennann](https://github.com/zhennann) |
 
-## Getting Started
+## 快速开始
 
-### Installation
+### 安装
 
 ```bash
 $ npm install
 ```
 
-### Test
+### 测试
 
 ```bash
 $ npm run test
