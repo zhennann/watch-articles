@@ -1,6 +1,6 @@
 {
   "name": "watch-articles",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "watch articles's statistics, such as stars, visits, replies, etc.",
   "main": "src/main.js",
   "scripts": {
