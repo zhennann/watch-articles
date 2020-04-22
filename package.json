@@ -4,7 +4,9 @@
   "description": "watch articles's statistics, such as stars, visits, replies, etc.",
   "main": "src/main.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha --timeout 120s"
+    "test": "./node_modules/mocha/bin/mocha --timeout 120s",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -36,6 +38,8 @@
     "mocha": "^4.0.1"
   },
   "dependencies": {
-    "axios": "^0.17.0"
-  }
+    "axios": "^0.17.0",
+    "snyk": "^1.161.1"
+  },
+  "snyk": true
 }
